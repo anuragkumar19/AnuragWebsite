@@ -1,0 +1,7 @@
+font
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+
+ CSS rules to specify families
+
+[font-family: 'Baloo Bhaina 2', cursive; ]

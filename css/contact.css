@@ -1,0 +1,149 @@
+    /* hyperlink underline clear */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    /* navigation bar */
+    
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+    
+    nav {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #nav {
+        display: flex;
+        color: white;
+        align-items: center;
+        position: fixed;
+        top: 0px;
+        right: 0;
+        left: 0;
+        background-color: purple;
+    }
+    
+    nav a {
+        color: white;
+    }
+    
+    nav div {
+        border-radius: 4px;
+    }
+    
+    .navitem:hover {
+        cursor: pointer;
+        background-color: #630a63;
+    }
+    
+    .navitem {
+        padding: 0px 42px;
+    }
+    
+    @media(max-width:670px) {
+        .navitem {
+            padding: 0px 20px;
+        }
+        #logo {
+            padding: 0 20px;
+        }
+    }
+    
+    #logo {
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        margin: 0;
+        padding: 0px 42px;
+    }
+    
+    @media(max-width:490px) {
+        #logo {
+            display: none;
+        }
+        .navitem {
+            padding: 5px 15px;
+        }
+    }
+    /* navbar css end here */
+    /* contact form */
+    
+    .contactform {
+        display: block;
+        margin: 0.5cm auto;
+        background-color: black;
+        border: 2px solid black;
+        border-radius: 1cm;
+        width: 10cm;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        height: 0.8cm;
+        border: 2px solid purple;
+    }
+    
+    #cntfrm {
+        border: 2px solid #251a1a;
+        width: 12cm;
+        background-color: #00ffff54;
+        margin: 1cm auto;
+        border-radius: 1cm;
+    }
+    
+    #cf5 {
+        height: 4cm;
+    }
+    
+    #cf6 {
+        color: gray;
+    }
+    
+    #cf6:hover {
+        cursor: pointer;
+    }
+    
+    @media(max-width:500px) {
+        .contactform {
+            width: 80vw;
+        }
+        #cntfrm {
+            width: 90vw;
+        }
+    }
+    
+    h1 {
+        text-align: center;
+        margin-top: 1.3cm;
+        color: tomato;
+    }
+    /* contact form en here */
+    /* footer */
+    
+    footer {
+        background-color: black;
+        color: white;
+        margin-top: 300px;
+    }
+    
+    .footer {
+        color: white;
+        text-align: center;
+        padding: 0.3cm 0;
+    }
+    
+    .footer:hover {
+        border: 2px solid purple;
+    }
+    
+    #footer5 {
+        color: white;
+        text-align: center;
+        padding: 0.5cm 0;
+    }
+    /* footer css end here  */
